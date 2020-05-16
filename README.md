@@ -1,2 +1,2 @@
-# assignment-starter
-Blank Code the Dream repository for student assignments
+# Front End 1 Week 1 Assignment Direcctions
+Instructions for week 1 are as follows.
