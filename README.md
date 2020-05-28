@@ -32,3 +32,5 @@ create columns with title at the top or bottom of the picture and leave the para
 8.	Create a github’s repository like:
 Your_user_name.github.io
 And push all the changes into it, also we will be able to see the live site in https://Your_user_name.github.io/ as the demo before. this way we are using github pages
+
+Create issues on the link below on the parent repo if you are stuck and want to talk about it. You can paste code, tag people and refer to other issues there. Please use it! It will be helpful for mentors and future students to see where common problems are. Link here: https://github.com/Code-the-Dream-School/Front-End-1-Week-2-Assignment/issues
