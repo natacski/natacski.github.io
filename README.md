@@ -1,7 +1,5 @@
 # Front End 1 Week 2 Assignment Directions
 
-
-# Front end 1. Week 2
 It is time to create something beautiful. Now you are going to create your own
 ### responsive (remember the breakpoints and media query) css template with all the things you have learned
 See the demo [here](https://mariandreamv.github.io/) . pay attention to all details.
@@ -18,10 +16,10 @@ The structure of the site has 2 .html files and 2 .css files, use index.html wit
 3.	Add a rule for the main title importing a new style font
 4.	Create rows and columns. Each one with title, image and paragraph
 
-* **Rows:**
+  * **Rows:**
 one with the photo to the right site of the page and another one to the left with their titles and paragraph
 
-*	 **columns:**
+  *	 **columns:**
 create columns with title at the top or bottom of the picture and leave the paragraph (description) as the last thing.
 
 ### It is mandatory to work for any numbers of columns or rows, everything has to be centered and have to wrap all the content
