@@ -1,7 +1,6 @@
 # Front End 1 Week 2 Assignment Directions
 
-It is time to create something beautiful. Now you are going to create your own
-### responsive (remember the breakpoints and media query) css template with all the things you have learned
+It is time to create something beautiful. Now you are going to create your own **responsive (remember the breakpoints and media query)** css template with all the things you have learned
 See the demo [here](https://mariandreamv.github.io/) . pay attention to all details.
 The main idea is to recreate that template with your own style, but you have to do it twice, one with floats and the other one with flexbox.
 The structure of the site has 2 .html files and 2 .css files, use index.html with float.css to make the project with floats  and flexbox.html with flexbox.css to make it with flexbox. Create a link in each ‘.html’ file that navigates you between those 2 .html files (as the upper right corner in the demo)  
