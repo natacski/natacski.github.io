@@ -1,7 +1,9 @@
 # Front End 1 Week 2 Assignment Directions
 
-It is time to create something beautiful. Now you are going to create your own **responsive (remember the breakpoints and media query)** css template with all the things you have learned
-See the demo [here](https://mariandreamv.github.io/) . pay attention to all details.
+It is time to create something beautiful. Now you are going to create your own **responsive (remember the breakpoints and media query)** css template with all the things you have learned.
+
+See the demo [here](https://mariandreamv.github.io/). Pay attention to all details.
+
 The main idea is to recreate that template with your own style, but you have to do it twice, one with floats and the other one with flexbox.
 The structure of the site has 2 .html files and 2 .css files, use index.html with float.css to make the project with floats  and flexbox.html with flexbox.css to make it with flexbox. Create a link in each ‘.html’ file that navigates you between those 2 .html files (as the upper right corner in the demo)  
 ### Instructions:
@@ -28,4 +30,4 @@ create columns with title at the top or bottom of the picture and leave the para
 7.	Add more things to make it better
 8.	Create a github’s repository like:
 Your_user_name.github.io
-And push all the changes into it, also we will be able to see the live site in https://Your_user_name.github.io/ as the demo before usin github pages
+And push all the changes into it, also we will be able to see the live site in https://Your_user_name.github.io/ as the demo before. this way we are using github pages
