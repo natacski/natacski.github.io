@@ -8,10 +8,11 @@ The main idea is to recreate that template with your own style, but you have to 
 The structure of the site has 2 .html files and 2 .css files, use index.html with float.css to make the project with floats  and flexbox.html with flexbox.css to make it with flexbox. Create a link in each ‘.html’ file that navigates you between those 2 .html files (as the upper right corner in the demo)  
 ### Instructions:
 1.	Navigation:
-•	At the top of the page create a Navigation bar with links that takes you to an specific part of the page using the css target  property and to the index.html or flexbox.html page (as the demo).
-•	Create a profile imagen (avatar) at the navigation bar trying to make the idea as it were a logged user
-•	Style the ::hover properties for the navigation bar’s items
-•	Make the navigation bar static (fixed) at the top of the page
+
+   * At the top of the page create a Navigation bar with links that takes you to an specific part of the page using the css target  property and to the index.html or flexbox.html page (as the demo).
+   * Create a profile imagen (avatar) at the navigation bar trying to make the idea as it were a logged user
+   * Style the ::hover properties for the navigation bar’s items
+   * Make the navigation bar static (fixed) at the top of the page
 
 2.	Set a gradient background to the cover page (Select the color of your preference)
 3.	Add a rule for the main title importing a new style font
