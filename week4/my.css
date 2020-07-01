@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Varela Round', sans-serif, 'arial';
+}
+
+ul{
+  list-style: none;
+}
+
+/*Navbar*/
+.navbar-brand {
+
+  font-size: 1.2rem;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-color: #003893;
+  background-size: cover;
+}
+
+.btn {
+  background: #ce1126;
+  color: white;
+}
+
+/*Table*/
+
+.table {
+  margin: auto;
+}
+
+/*video*/
+video {
+  width: 100%;
+  height: auto;
+}
+
+h6 {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+/*Foter*/
+.main-footer {
+  background-color: #003893;
+  width: 100%;
+  padding: 20px;
+  padding-left: 4%;
+  text-align: center;
+  margin-top: 80px;
+  color: #fcd116;
+}
+
+.footer-right .footer-icons {
+  margin-top: 0;
+}
+
+.footer-right .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #ce1126;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 1px;
+  margin-bottom: 20px;
+}
+
