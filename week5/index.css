@@ -1,0 +1,27 @@
+.container{
+  width: 70%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+
+th{
+  padding: 10px;
+}
+
+img{
+  width: 40px;
+  height: auto;
+}
+.jumbotron,
+#weather-info {
+  background: linear-gradient(to top right, #87ceeb 12%, #0066ff 69%);
+  background-size: cover;
+  border: solid 2px #ffcc00;
+}
+#current-weather-icon {
+  width: 100px;
+}
+
+
+ 
