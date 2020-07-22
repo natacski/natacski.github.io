@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Students App</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <link href= "index.css" rel="stylesheet"></link>
+  </head>
+  <body>
+
+  
+ <!--jumbotron-->
+ <div class="container">
+    <div class="jumbotron jumbotron-fluid text-light border border-primary rounded">
+        <div class="container text-sm-center pt-3">
+            <h1 class="display-3">Student Enrollment Program</h1><br>
+            <div class="btn-group mt-4 pb-4" role="group" aria-label="Callout buttons">
+                <button class="btn btn-light btn-lg mr-1 border border-primary rounded" type="button" id="students" disabled>Students</button>
+                <button class="btn btn-light btn-lg mr-1 border border-primary rounded" type="button" id="courses" disabled>Courses</button>
+                <button class="btn btn-light btn-lg mr-1 border border-primary rounded" type="button" data-toggle="modal" data-target="#new_student">New Student</button>
+             
+            </div>
+        </div>
+    </div>
+</div>
+<!--/jumbotron-->
+
+<div id="students_data_body">
+  <!--STUDENT CARDS GOES HERE-->
+</div>
+
+<div id="courses_data_body">
+  <!--COURSES CARDS GOES HERE-->
+</div>
+
+  <!-- Modal for New Student -->
+  <div class="modal fade" id="new_student" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-light border-bottom border-primary">
+                <h5 class="modal-title" id="exampleModalLabel">New Student</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--New student form-->  
+            <div class="modal-body">
+              <form class="form-body" onsubmit="event.preventDefault();"> 
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="name">First Name</label>
+                          <input type="text" class="form-control" id="name" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                          <label for="lastName">Last Name</label>
+                          <input type="text" class="form-control" id="lastName" required>
+                      </div>
+                     <button class="btn btn-light btn-md mr-1 border border-primary rounded" name="submit"  id="submit_btn">Submit</button>
+                  </div>
+              </form>
+             </div>    
+             <!--/close student form-->
+        </div>
+    </div>
+  </div>
+
+   <!-- Modal for existing Student -->
+   <div class="modal fade" id="modal-edit-student" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-light border-bottom border-primary">
+                <h5 class="modal-title" >Edit info</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--Edit student info form-->  
+            <div class="modal-body">
+              <form class="form-body" onsubmit="event.preventDefault();"> 
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="name">First Name</label>
+                          <input type="text" class="form-control" id="name_edit" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                          <label for="lastName">Last Name</label>
+                          <input type="text" class="form-control" id="lastName_edit" required>
+                      </div>
+                      
+                     
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="status-drop-down">Status</label>
+                        <select name="status-drop-down" id="status-drop-down">
+                          <option value="true">Active</option>
+                          <option value="false">Inactive</option>
+                          </select>
+                    </div>
+                </div>
+                  <button class="btn btn-light btn-md mr-1 border border-primary rounded" name="submit"  id="edit-student-submit">Submit</button>
+              </form>
+             </div>    
+             <!--/close student info form-->
+        </div>
+    </div>
+  </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
