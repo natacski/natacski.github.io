@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container{
+ width: 80%;
+ margin: auto;
+ min-height: 100vh;
+}
+
+.center{
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.niceFont{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.square{
+  margin: 1%;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border: solid 1px #72bcd4;
+}
+
+.squareIcon{
+  margin: auto;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.cell{
+  color: white;
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+display: flex;
+flex-wrap: nowrap;
+}
+
+.together{
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon{
+  width: 20px;
+}
+
+.board{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2%;
+
+ }
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 45%;
+  margin-top: 15px;
+}
+
+ button{
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 45%;
+  
+}
+
+.image1{
+  margin-left: 40%;
+  margin-top: 5%;
+} 
+.image2{
+  margin-left: 2%;
+  margin-top: 0%;
+} 
+h1
+{
+  margin-left: 38%;
+  margin-top: 20px;
+} 
+h2
+{
+  margin-left: 40%;
+  margin-top: 20px;
+} 
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+ 
+  margin: 40px 0 30px 300px;
+}
+form label {
+  margin: 5px 10px 5px 0;
+  font-size: 22px;
+}
+form input {
+  margin: 5px 50px 5px 0;
+  padding: 10px;
+  border: 1px solid #72bcd4;
+  border-radius: 15px;
+}
